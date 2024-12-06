@@ -1,0 +1,18 @@
+.WeatherApp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 600px;
+  }
+  
+  .SearchBox {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  
+  .InfoBox {
+    width: 100%;
+  }
+  

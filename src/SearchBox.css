@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: flex-start; /* Align items to the top */
+    justify-content: center; /* Center horizontally */
+    height: 100vh;
+    background-color: #e8f1f8; /* Light background for better visibility */
+    font-family: 'Arial', sans-serif;
+}
+
+.SearchBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f4f8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin-top: 20px; /* Add margin from the top */
+}
+
+.SearchBox h3 {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+
+.inputField {
+    width: 100%;
+}
+
+.searchButton {
+    align-self: center;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    width: 100px;
+    text-transform: none;
+    transition: background-color 0.3s ease;
+}
+
+.searchButton:hover {
+    background-color: #0056b3;
+}
+
